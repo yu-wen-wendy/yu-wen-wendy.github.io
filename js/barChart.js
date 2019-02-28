@@ -135,5 +135,6 @@ BarChart.prototype.updateVis = function(){
         .attr("height", function(d){ return (vis.height - vis.y(d.size)); })
         .attr("x", function(d){ return vis.x(d.StateHealth) })
         .attr("width", vis.x.bandwidth)
-        .attr("fill", "grey")
+        .attr("fill", "#F0CA50")
+		.style("fill-opacity", "0.9")
 };

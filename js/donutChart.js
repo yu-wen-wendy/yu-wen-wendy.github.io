@@ -112,7 +112,7 @@ DonutChart.prototype.addLegend = function(){
     	{label: "Poor", color: vis.color("Poor")},
     	{label: "Fair", color: vis.color("Fair")},
 		{label: "Good", color: vis.color("Good")},
-    	{label: "Very Good", color: vis.color("Very Good")}
+    	{label: "Very Good", color: vis.color("Very good")}
 	]
 
     var legendRow = legend.selectAll(".legendRow")

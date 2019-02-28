@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <title>GapMinder Data Exploration with the WVS Data</title>
+    <title>6.7 - Adding a jQuery UI slider</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- jQuery UI CSS -->
@@ -16,14 +16,16 @@
     <link rel="stylesheet" href="css/style.css">
 	<style>
 		a:link, a:visited {
-		  background-color: black;
+		  background-color: slategrey;
 		  color: white;
-		  padding: 15px 25px;
+		  padding: 12px 20px;
 		  text-align: center;
 		  text-decoration: none;
 		  display: inline-block;
+		  font-size: 15px;
+		  border-radius: 4px;
+		
 		}
-
 		a:hover, a:active {
 		  background-color: grey;
 		}
@@ -33,7 +35,6 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container">
-<!--            <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>   -->
 			<h2>Which one brings good state of health? Spiritual wealth or material wealth?</h2>
 			<a href="index.html" target="_blank">Comparison</a>
 			<a href="gap.html" target="_blank">Gapminder data</a>
@@ -55,10 +56,10 @@
             <div class="col-md-6">
                 <select id="continent-select" class="form-control">
                     <option selected value="all">All</option>
-                    <option value="Europe">Europe</option>
-                    <option value="Asia">Asia</option>
-                    <option value="Americas">Americas</option>
-                    <option value="Africa">Africa</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="americas">Americas</option>
+                    <option value="africa">Africa</option>
                 </select>
             </div>
         </div>

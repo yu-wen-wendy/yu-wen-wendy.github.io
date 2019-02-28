@@ -15,7 +15,7 @@ Timeline.prototype.initVis = function(){
 
     vis.margin = {top: 0, right: 100, bottom: 20, left: 80};
     vis.width = 800 - vis.margin.left - vis.margin.right;
-    vis.height = 100 - vis.margin.top - vis.margin.bottom;
+    vis.height = 120 - vis.margin.top - vis.margin.bottom;
 
     vis.svg = d3.select(vis.parentElement).append("svg")
         .attr("width", vis.width + vis.margin.left + vis.margin.right)
@@ -38,6 +38,8 @@ Timeline.prototype.initVis = function(){
     vis.xAxis = vis.g.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + vis.height +")");
+	
+
 
     vis.areaPath = vis.g.append("path")
         .attr("fill", "#ccc");

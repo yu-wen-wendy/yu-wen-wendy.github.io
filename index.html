@@ -14,12 +14,15 @@
     <link rel="stylesheet" href="css/style.css">
 	<style>
 		a:link, a:visited {
-		  background-color: black;
+		  background-color: slategrey;
 		  color: white;
-		  padding: 15px 25px;
+		  padding: 12px 20px;
 		  text-align: center;
 		  text-decoration: none;
 		  display: inline-block;
+		  font-size: 15px;
+		  border-radius: 4px;
+		
 		}
 
 		a:hover, a:active {
@@ -54,7 +57,7 @@
                             <option selected value="Income">Income</option>
                             <option value="Socialclass">Social class</option>
                             <option value="Education">Highest Education</option>
-							<option value="Health">Health</option>
+							
 							<option value="FinancialSituation">Satisfication of Financial Situation</option>
 							<option value="Happiness">Happiness</option>
 							<option value="Help">Willing to help others</option>
@@ -63,10 +66,12 @@
                     </div>                          
                 </div>
                 <div id="stacked-area"></div>
+				<label><span>Trend of State of Health (Brush here)</span></label>
                 <div id="timeline"></div>
             </div>
             <div id="right-charts" class="col-md-4 col-sm-12">
                 <div class="row">
+					<label>General information</label>
                     <div class="col-sm- col-md-12" id="StateHealth"></div>
                     <div class="col-sm-6 col-md-12" id="units-sold"></div>                    
                     <div class="col-sm-6 col-md-12" id="revenue"></div>
@@ -83,7 +88,8 @@
 <script src="js/d3.min.js"></script>
 
 <!-- Custom JS -->
-<script src="js/stackedAreaChart.js"></script>
+<!--<script src="js/stackedAreaChart.js"></script>-->
+<script src="js/plotchart.js"></script>
 <script src="js/barChart.js"></script>
 <script src="js/donutChart.js"></script>
 <script src="js/timeline.js"></script>
