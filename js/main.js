@@ -1,8 +1,4 @@
-/*
-*    main.js
-*    Mastering Data Visualization with D3.js
-*    FreedomCorp Dashboard
-*/
+
 
 var parseTime = d3.timeParse("%Y");
 var formatTime = d3.timeFormat("%Y");
