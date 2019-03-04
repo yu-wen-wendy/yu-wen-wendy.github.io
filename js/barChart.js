@@ -1,8 +1,3 @@
-/*
-*    barChart.js
-*    Mastering Data Visualization with D3.js
-*    FreedomCorp Dashboard
-*/
 
 
 
